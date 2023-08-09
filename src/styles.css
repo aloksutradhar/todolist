@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.inputContainer > input {
+  font-size: 1rem;
+}
+.inputContainer > button,
+.itemContainer > button {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.inputContainer > button {
+  background: rgb(116, 225, 116);
+  border: 1px solid rgb(37, 158, 37);
+}
+.itemContainer {
+  display: flex;
+  width: 220px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid rgb(91, 197, 197);
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(151, 207, 207), #fff);
+}
+
+.itemContainer > button {
+  background: rgb(227, 91, 91);
+  border: 1px solid rgb(83, 36, 36);
+}
